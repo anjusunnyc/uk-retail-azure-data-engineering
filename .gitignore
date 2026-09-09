@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local development
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Azure / Synapse local configuration
+.azure/
+
+# Raw and generated data
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.jsonl
+data/
+bronze/
+silver/
+gold/
+
+# Power BI temporary/cache files
+*.pbit.tmp
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
